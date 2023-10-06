@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../assets/img/img/mainIcon.png" type="image/x-icon">
+    <title>home page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">PopcornFlix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="singleMovie.html">Single Movie Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutPage.html">About Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="serchPage.html">Search Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="favoritesPage.html">Favorites Page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="backGroundPic">
+        <form>
+            <input type="text" placeholder="movie of the week / day" id="weekOrDayBtnInput">
+        </form>
+        <div class="button-container">
+            <button class="button-85" role="button" id="btn1">1</button>
+            <button class="button-85" role="button" id="btn2">2</button>
+            <button class="button-85" role="button" id="btn3">3</button>
+            <button class="button-85" role="button" id="btn4">4</button>
+            <button class="button-85" role="button" id="btn5">5</button>
+        </div>
+    </div>
+    <div id="mainDiv" class="flex-container">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
